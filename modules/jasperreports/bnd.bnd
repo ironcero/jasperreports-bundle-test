@@ -1,0 +1,20 @@
+Bundle-Name: jasperreports
+Bundle-SymbolicName: jasperreports
+Bundle-Version: 1.0.0
+Export-Package: *;-split-package:=merge-last;-noimport:=true
+Import-Package: \
+	*;resolution:=optional
+Bundle-ClassPath:\
+  .,\
+  lib/poi-3.7.jar,\
+  lib/jasperreports-5.6.1.jar,\
+  lib/commons-digester-2.1.jar,\
+  lib/groovy-all-2.0.1.jar,\
+  lib/itext-2.1.7.js2.jar
+Include-Resource:\
+	lib/poi-3.7.jar=poi-3.7.jar,\
+	lib/jasperreports-5.6.1.jar=jasperreports-5.6.1.jar,\
+	lib/commons-digester-2.1.jar=commons-digester-2.1.jar,\
+	lib/groovy-all-2.0.1.jar=groovy-all-2.0.1.jar,\
+	lib/itext-2.1.7.js2.jar=itext-2.1.7.js2.jar
+-metatype: *

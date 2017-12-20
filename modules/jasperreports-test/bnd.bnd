@@ -1,0 +1,6 @@
+Bundle-Name: jasperreports-test
+Bundle-SymbolicName: jasperreports.test
+Bundle-Version: 1.0.0
+Export-Package: jasperreports.test.constants
+Import-Package:  \
+	*;resolution:=optional
