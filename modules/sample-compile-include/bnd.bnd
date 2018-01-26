@@ -1,0 +1,4 @@
+Bundle-Name: sample-compile-include
+Bundle-SymbolicName: sample.compile.include
+Bundle-Version: 1.0.0
+Export-Package: sample.compile.include.constants

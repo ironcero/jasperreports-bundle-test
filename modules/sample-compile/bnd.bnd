@@ -1,0 +1,4 @@
+Bundle-Name: sample-compile
+Bundle-SymbolicName: sample.compile
+Bundle-Version: 1.0.0
+Export-Package: *

@@ -1,0 +1,4 @@
+Bundle-Name: sample-compile-only
+Bundle-SymbolicName: sample.compile.only
+Bundle-Version: 1.0.0
+Export-Package: sample.compile.only.constants
